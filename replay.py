@@ -4,7 +4,6 @@ import time
 from multiprocessing import Process
 import pickle
 from config import DIC_AGENTS, DIC_ENVS
-import sys
 
 
 def check_all_workers_working(list_cur_p):

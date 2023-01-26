@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 from generator import Generator
 from construct_sample import ConstructSample
 from updater import Updater
-from multiprocessing import Process, Pool
+from multiprocessing import Process
 # from model_pool import ModelPool
 import random
 import pickle
@@ -13,7 +13,6 @@ import model_test
 import pandas as pd
 import numpy as np
 from math import isnan
-import sys
 import time
 import traceback
 

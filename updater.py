@@ -5,10 +5,7 @@ import pandas as pd
 import shutil
 import pandas as pd
 import time
-from multiprocessing import Pool
 import traceback
-import random
-import numpy as np
 
 
 class Updater:

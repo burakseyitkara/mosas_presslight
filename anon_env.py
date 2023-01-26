@@ -6,8 +6,7 @@ import pandas as pd
 import os
 import engine
 import time
-import threading
-from multiprocessing import Process, Pool
+from multiprocessing import Process
 from script import get_traffic_volume
 from copy import deepcopy
 

@@ -6,8 +6,6 @@ import time
 from multiprocessing import Process
 import argparse
 import os
-import matplotlib
-# matplotlib.use('TkAgg')
 
 multi_process = True
 

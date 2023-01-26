@@ -1,17 +1,11 @@
 
 import numpy as np
-from keras import backend as K
-from keras.layers import Input, Dense, Conv2D, Flatten, BatchNormalization, Activation, Multiply, Add
-from keras.models import Model, model_from_json, load_model
+from keras.layers import Input, Dense,Flatten
+from keras.models import Model
 from keras.optimizers import RMSprop
-from keras.callbacks import EarlyStopping, TensorBoard
-from keras.layers import concatenate, add
-import random
-import os
-import pickle
+from keras.layers import concatenate
 
-from network_agent import NetworkAgent, conv2d_bn, Selector
-import json
+from network_agent import NetworkAgent
 
 
 class SimpleDQNAgent(NetworkAgent): 

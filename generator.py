@@ -2,8 +2,8 @@ import os
 import copy
 from config import DIC_AGENTS, DIC_ENVS
 import time
-import sys
-from multiprocessing import Process, Pool
+
+
 
 class Generator:
     def __init__(self, cnt_round, cnt_gen, dic_path, dic_exp_conf, dic_agent_conf, dic_traffic_env_conf, best_round=None):

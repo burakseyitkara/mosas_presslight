@@ -1,7 +1,7 @@
 
 import numpy as np
-from keras.layers import Input, Dense, Conv2D, Flatten, BatchNormalization, Activation, Multiply, Add
-from keras.models import Model, model_from_json, load_model
+from keras.layers import Dense, Conv2D, Flatten, BatchNormalization, Activation
+from keras.models import model_from_json, load_model
 from keras.optimizers import RMSprop
 from keras.layers.core import Dropout
 from keras.layers.pooling import MaxPooling2D
@@ -9,7 +9,7 @@ from keras import backend as K
 import random
 from keras.layers import Layer
 import os
-from keras.callbacks import EarlyStopping, TensorBoard
+from keras.callbacks import EarlyStopping
 import traceback
 import pickle as pkl
 
