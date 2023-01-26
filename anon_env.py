@@ -4,13 +4,13 @@ import json
 import sys
 import pandas as pd
 import os
-import cityflow
+import cityflow as engine
 import time
 from multiprocessing import Process
 from script import get_traffic_volume
 from copy import deepcopy
 
-engine = cityflow.engine
+
 
 class Intersection:
     DIC_PHASE_MAP = {
