@@ -1,8 +1,9 @@
 
 import numpy as np
+import tensorflow
 from keras.layers import Input, Dense,Flatten
 from keras.models import Model
-from keras.optimizers import RMSprop
+from tensorflow.keras.optimizers import RMSprop
 from keras.layers import concatenate
 
 from network_agent import NetworkAgent
